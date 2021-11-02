@@ -8,8 +8,12 @@
     <classes>
       <class name="slideTest.Scenarios">
         <methods>
-          <include name="three"/>
-          <include name="four"/>
+          <include name="xternalbrowser"/>
+          <include name="nointernet"/>
+          <include name="loginvalid"/>
+          <include name="cachelogin"/>
+          <include name="logindisplay"/>
+          <include name="loginerror"/>
         </methods>
       </class> <!-- slideTest.Scenarios -->
     </classes>

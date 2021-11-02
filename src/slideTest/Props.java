@@ -43,10 +43,7 @@ public class Props {
 		return wifi;
 	}
 	
-	/*    ConnectionState state = driver.setConnection(new ConnectionStateBuilder().withWiFiEnabled().build());
-    Assert.assertTrue(state.isWiFiEnabled(), "Wifi is not switched on");
-    logger.LogTestInfo("WiFi turned on");
-} */
+	
 	@Test
 		public  AndroidDriver<AndroidElement> wifiOn() throws MalformedURLException {
 		
